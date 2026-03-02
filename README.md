@@ -47,3 +47,19 @@ I aim to solve problems consistently and cover all major DSA patterns required f
 ## 📌 Note
 
 This repository reflects my ongoing learning journey. Solutions may be optimized further as I revisit problems and explore alternative approaches.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/adarsh0052/Data-Structures-and-Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Two Pointers
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/adarsh0052/Data-Structures-and-Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/adarsh0052/Data-Structures-and-Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+<!---LeetCode Topics End-->
