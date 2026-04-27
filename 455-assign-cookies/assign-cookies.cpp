@@ -8,9 +8,9 @@ public:
 
         while (child < g.size() && cookie < s.size()) {
             if (s[cookie] >= g[child]) {
-                child++; // child is satisfied
+                child++; 
             }
-            cookie++; // move to next cookie regardless
+            cookie++; 
         }
 
         return child;
