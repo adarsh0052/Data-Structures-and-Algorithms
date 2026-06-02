@@ -9,14 +9,13 @@ public:
         while(st<=ed){
             if(abs(nums[st])<abs(nums[ed])){
                 res[pos] = nums[ed] * nums[ed];
-                pos--;
                 ed--;
             }
             else{
                 res[pos] = nums[st] * nums[st];
-                pos--;
                 st++;
             }
+            pos--;
         }
          return res;
     }
