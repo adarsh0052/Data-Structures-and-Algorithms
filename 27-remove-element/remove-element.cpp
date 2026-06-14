@@ -1,16 +1,16 @@
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
-        int sz = nums.size();
-
-        for (int i = 0; i < sz; i++) {
-            if (val == nums[i]) {
-                nums.erase(nums.begin() + i);
-                i--;     
-                sz--;    
+        int n  = nums.size();
+        for(int i=0; i<n; i++){
+            if(nums[i] == val){
+                for(int idx = i+1; idx<n; idx++){
+                    nums[idx-1] = nums[idx];
+                }
+            i--;
+            n--;
             }
         }
-
-        return nums.size();
+        return n;        
     }
 };
