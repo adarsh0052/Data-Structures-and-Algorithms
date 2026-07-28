@@ -9,7 +9,7 @@ public:
     }
 
     void visit(string url) {
-        history.resize(curr + 1);   // Remove forward history
+        history.resize(curr + 1);   
         history.push_back(url);
         curr++;
     }
